@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/schedule_manage.css">
+
+    <title>Movie Schedule Management</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Schedule Management</h1>
+        <form action="/addSchedule" method="post">
+            <label for="movieTitle">Movie Title</label>
+            <input type="text" id="movieTitle" name="movieTitle" placeholder="Enter movie title" required>
+
+            <label for="scheduleDate">Schedule Date</label>
+            <input type="date" id="scheduleDate" name="scheduleDate" required>
+
+            <label for="scheduleTime">Schedule Time</label>
+            <input type="time" id="scheduleTime" name="scheduleTime" required>
+
+            <label for="theater">Theater</label>
+            <select id="theater" name="theater" required>
+                <option value="">Select Theater</option>
+                <option value="Theater 1">Theater 1</option>
+                <option value="Theater 2">Theater 2</option>
+                <option value="Theater 3">Theater 3</option>
+            </select>
+
+            <button type="submit">Add Schedule</button>
+        </form>
+    </div>
+</body>
+</html>
