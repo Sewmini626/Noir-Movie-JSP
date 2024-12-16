@@ -77,7 +77,7 @@
         </tr>
         </thead>
         <tbody>
-
+        <!-- Example static rows -->
         <tr>
             <td>John Doe</td>
             <td>johndoe@example.com</td>
